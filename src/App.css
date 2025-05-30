@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+body{
+  box-sizing: border-box;
+}
+html {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  overflow: hidden;
+  height: 100%;
+}
+#vanta-bg{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  padding: 0;
+  margin: clamp(15px, 3vw, 25px);
+  overflow-x: hidden;
+  height: calc(100vh - 50px);
+  overflow-y: hidden;
+  position: relative;
+  z-index: 1;
+ outline: 0.1px solid white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+  /* your tablet styles */
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (max-width: 600px) {
+  /* your mobile styles */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
