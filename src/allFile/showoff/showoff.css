@@ -1,12 +1,13 @@
 .showoff-container {
     position: absolute;
-    top:0;
+    top:30vh;
     right: 10px;
     color: white;
     width: 60vw; 
-    height: 90vh;
+    height: 60vh;
     overflow-y: scroll;
     font-size: 13px;
+  
 
   }
   .showoff-container{

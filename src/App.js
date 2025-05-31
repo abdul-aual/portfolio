@@ -9,7 +9,7 @@ import Contacts from './allFile/contacts/Contacts';
 import Bio from './allFile/bio/Bio';
 import Showoff from './allFile/showoff/Showoff';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
@@ -29,9 +29,9 @@ function App() {
         <NavLinks />
 
         <Routes>
-          <Route path='/' element={<Bio/>} />
-          <Route path='/projects' element={<Projects/>} />
-          <Route path='/showoff' element={<Showoff/>} />
+          <Route path='/' element={<Bio />} />
+          <Route path='/projects' element={<Projects />} />
+          <Route path='/showoff' element={<Showoff />} />
           <Route path='/academic' element={<Academic />} />
           <Route path='/contact' element={<Contacts />} />
         </Routes>
