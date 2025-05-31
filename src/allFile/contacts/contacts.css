@@ -1,0 +1,16 @@
+.contacts-container{
+    position: absolute;
+    color:white;
+    font-family: 'Roboto',sans-serif;
+    margin-left: calc(10px + 1vw);
+    margin-top: calc(30px + 2vh);
+    z-index: 11;
+    color: white;
+}
+.contacts-container a {
+    color: white;
+    text-decoration: none;
+}
+.contacts-container a:hover{
+    color: rgb(93, 91, 91);
+}

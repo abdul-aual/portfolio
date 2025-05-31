@@ -6,7 +6,8 @@ import { initVantaBackground, destroyVantaBackground } from './background';
 import Academic from './allFile/academic/Academic';
 import Projects from './allFile/projects/Projects';
 import Contacts from './allFile/contacts/Contacts';
-
+import Bio from './allFile/bio/Bio';
+import Showoff from './allFile/showoff/Showoff';
 import {
   BrowserRouter as Router,
   Routes,
@@ -28,7 +29,9 @@ function App() {
         <NavLinks />
 
         <Routes>
-          <Route path='/' element={<Projects />} />
+          <Route path='/' element={<Bio/>} />
+          <Route path='/projects' element={<Projects/>} />
+          <Route path='/showoff' element={<Showoff/>} />
           <Route path='/academic' element={<Academic />} />
           <Route path='/contact' element={<Contacts />} />
         </Routes>

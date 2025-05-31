@@ -1,0 +1,20 @@
+.bio-container {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    color: white;
+    padding: 15px;
+    z-index: 11;
+    height: 40vh;
+    width: 140px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style:none;
+  }
+  .bio-container::-webkit-scrollbar{
+    display: none;
+  }
+ .bio-container p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+  }

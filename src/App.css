@@ -37,11 +37,33 @@ body {
 
 
 
-@media screen and (max-width: 1024px) and (min-width: 601px) {
-  /* your tablet styles */
-}
-
 @media screen and (max-width: 600px) {
-  /* your mobile styles */
+ 
+  .bio-container p {
+    font-size: 13px;
+  }
+  .navDiv a,.contacts-container a{
+    font-size: 13px;
+  }
 }
 
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+
+  .bio-container p {
+    font-size: 15px;
+  }
+  .navDiv a,.contacts-container a{
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+
+  .bio-container p {
+    font-size: 22px;
+  }
+  .navDiv a,.contacts-container a{
+    font-size: 16px;
+  }
+  
+}

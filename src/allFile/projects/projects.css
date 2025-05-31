@@ -1,6 +1,11 @@
-.projects-main-div{
-    position: fixed;
-    height: 100px;
-    width: 100px;
-    background-color: aqua;
+.projects-container{
+    position: absolute;
+    top:45vh;
+    right:10px;
+    color:white;
+    width: 50vw;
+    overflow-y: scroll;
+}
+.projects-container::-webkit-scrollbar{
+    display: none;
 }
